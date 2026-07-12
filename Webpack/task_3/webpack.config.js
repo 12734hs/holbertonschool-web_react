@@ -20,9 +20,11 @@ module.exports = {
     },
   },
   devServer: {
-    contentBase: './public',
-    port: 8564,
-    open: true,
+  static: {
+    directory: path.resolve(__dirname, 'public'),
+  },
+  port: 8564,
+  open: true,
   },
   plugins: [
     new HtmlWebpackPlugin(),
