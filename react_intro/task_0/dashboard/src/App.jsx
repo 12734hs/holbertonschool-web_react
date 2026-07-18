@@ -6,18 +6,18 @@ function App() {
 
   return (
     <>
-      <div className="App-header">
+      <header className="App-header">
         <img src={logo} alt="holberton logo" />
         <h1>School dashboard</h1>
-      </div>
+      </header>
 
-      <div className="App-body">
+      <main className="App-body">
         <p>Login to access the full dashboard</p>
-      </div>
+      </main>
 
-      <div className="App-footer">
-        <p>Copyright {year} - holberton School</p>
-      </div>
+      <footer className="App-footer">
+        <p>Copyright {year} - Holberton School</p>
+      </footer>
     </>
   );
 }
