@@ -63,7 +63,7 @@ class App extends Component {
     ];
 
     const { isLoggedIn } = this.props;
-    const displayDrawer = true;
+    const displayDrawer = false;
 
     return (
       <Fragment>
